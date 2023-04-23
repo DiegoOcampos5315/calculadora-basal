@@ -2,26 +2,26 @@
 <html>
     <head>
         <title>Calculadora de Hidratación</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-
-
-        <h1>Hidratación Basal</h1>
-        <p>Ingrese el peso en kilogramos</p>
-        <input type="number" placeholder="peso en Kg" />
-        <button>Calcular</button>
-        <p>* Debe completar todos los datos</p>
-        <p>71cc/h</p>
-        <p>m+m/2 : 105cc/h</p>
-
-        <h1>¿Como se calcula?</h1>
-        <ul>
-            <li>De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
-            <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
-            <li>De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
-        </ul>
-
-           
-
+        <div id="contenedor">
+            <div id="calculadora">
+                <div class="contenido">
+                    <h1 id="titulo">Hidratación Basal</h1>
+                    <p>Ingrese el peso en kilogramos</p>
+                    <input type="number" placeholder="peso en kg" />
+                    <button>Calcular</button>
+                </div>
+            </div>
+            <div id="detalle">
+            <h1 id="titulo2">¿Como se calcula?</h1>
+            <ul>
+                <li>De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
+                <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
+                <li>De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
+            </ul>
+            </div>
+        </div>
     </body>
 </html>
